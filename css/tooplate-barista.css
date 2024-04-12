@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'IMPOSIBLE';
-    src: url('fonts/IMPOS0_.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -50,6 +45,12 @@ body {
 }
 
 
+@font-face {
+    font-family: 'IMPOS';
+    src: url('../fonts/IMPOS0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -107,7 +108,7 @@ p {
 
 
 .font-moroblack {
-  font-family: var(--font-moroblack); 
+  font-family: 'IMPOS', sans-serif;
   font-weight: normal;
   background: linear-gradient(to bottom, rgba(252, 252, 252, 1), rgba(127, 127, 127, 1));
   -webkit-background-clip: text; /* Define a área de clipping como o texto */
