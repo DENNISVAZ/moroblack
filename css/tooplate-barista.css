@@ -1,10 +1,9 @@
-/*
-
-Tooplate 2137 Barista
-
-https://www.tooplate.com/view/2137-barista-cafe
-
-*/
+@font-face {
+    font-family: 'IMPOSIBLE';
+    src: url('fonts/IMPOS0_.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
@@ -22,7 +21,7 @@ https://www.tooplate.com/view/2137-barista-cafe
   --link-hover-color:             #000080; //#E76F51;
 
   --body-font-family:             'Plus Jakarta Sans', sans-serif;
-  --font-moroblack:               'Impossible - 0', sans-serif;
+  --font-moroblack:               'IMPOSIBLE', sans-serif;
 
   --h1-font-size:                 68px;
   --h2-font-size:                 46px;
@@ -49,6 +48,9 @@ body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
 }
+
+
+
 
 
 /*---------------------------------------
